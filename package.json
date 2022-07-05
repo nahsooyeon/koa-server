@@ -11,10 +11,12 @@
     "dev:serve": "nodemon -e js -w lib build/index.js"
   },
   "dependencies": {
-    "koa": "^2.13.4"
+    "koa": "^2.13.4",
+    "koa-router": "^11.0.1"
   },
   "devDependencies": {
     "@types/koa": "^2.13.4",
+    "@types/koa-router": "^7.4.4",
     "@types/node": "^18.0.1",
     "@typescript-eslint/parser": "^5.30.4",
     "eslint": "^8.19.0",
